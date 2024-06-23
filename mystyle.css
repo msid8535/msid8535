@@ -1,8 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-    background-color: lightblue;
+    background-color: olive;
   }
   
   h1 {
-    color: navy;
+    color: mintcream;
     margin-left: 20px;
   }
