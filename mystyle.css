@@ -30,5 +30,8 @@ body {
 
   footer {
     background-color: #2d3748; /* bg-gray-800 */
+    color: #ffffff; /* text-white */
+    padding: 1rem; /* p-4 */
+    text-align: center; /* text-center */
   }
 
