@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 
+header {
+  background-color: #3182ce; /* bg-blue-600 */
+  color: #ffffff; /* text-white */
+  padding: 1rem; /* p-4 */
+}
+
 body {
     background-color: olive;
     margin-left: 40px;
@@ -35,5 +41,5 @@ body {
     text-align: center; /* text-center */
   }
 
-  
+
 
