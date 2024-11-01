@@ -34,6 +34,13 @@ body {
     font-weight: bold;  
   }
 
+  h4 {
+    color: mintcream
+    font-family: "Arial", sans-serif;
+    font-size: 10px; /* Adjust font size */
+    font-weight: bold;  
+  }
+
   footer {
     background-color: #2d3748; /* bg-gray-800 */
     color: #ffffff; /* text-white */
