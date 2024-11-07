@@ -2,4 +2,4 @@
 
 ** Website for Mohsin Siddiqui **
 
-_Designed in HTML, JavaScript, CSS_
+Designed in: _HTML, JavaScript, CSS_
