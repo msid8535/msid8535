@@ -37,9 +37,12 @@ body {
   h4 {
     color: mintcream
     font-family: "Arial", sans-serif;
-    font-size: 7px; /* Adjust font size */
+    font-size: 8px; /* Adjust font size */
     font-weight: italic;
   }
+
+
+
 
   footer {
     background-color: #2d3748; /* bg-gray-800 */
