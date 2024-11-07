@@ -17,27 +17,27 @@ body {
   h1 {
     color: mintcream;
     font-family: "Arial", sans-serif;
-    font-size: 24px; /* Adjust font size */
+    font-size: 24px; 
     font-weight: bold;
   }
   h2 {
     color: mintcream
     font-family: "Arial", sans-serif;
-    font-size: 16px; /* Adjust font size */
+    font-size: 16px; 
     font-weight: bold; 
   }
 
   h3 {
     color: mintcream
     font-family: "Arial", sans-serif;
-    font-size: 10px; /* Adjust font size */
+    font-size: 10px; 
     font-weight: bold;  
   }
 
   h4 {
     color: mintcream
     font-family: "Arial", sans-serif;
-    font-size: 8px; /* Adjust font size */
+    font-size: 8px; 
     font-weight: italic;
   }
 
