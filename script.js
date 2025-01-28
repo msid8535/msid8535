@@ -1,10 +1,5 @@
-const records = {
-    current_position: "Web Designer",
-    languages_spoken: "English, Hindi, Urdu, Arabic",
-    current_timezone: "GMT+10"
-}
-
 let currentSlide = 0;
+const slideInterval = 3000; // Change slide every 3 seconds
 
 function showSlide(index) {
   const slides = document.querySelectorAll('.carousel-item');
@@ -29,3 +24,6 @@ function prevSlide() {
 
 // Initialize the carousel
 showSlide(currentSlide);
+
+// Set interval to automatically move to the next slide
+setInterval(nextSlide, slideInterval);
