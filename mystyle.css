@@ -15,17 +15,18 @@ body {
   }
   
   h1 {
-    color: mintcream;
-    font-family: "Arial", sans-serif;
+    color: mintcream
+    font-family: 'Playfair Display', serif;
     font-size: 24px; 
     font-weight: bold;
+    text-transform: uppercase;
   }
   h2 {
     color: mintcream
+    font-family: 'Playfair Display', serif;
     font-size: 16px; 
     font-weight: bold;
     text-transform: uppercase;
-    font-family: 'Playfair Display', serif;
   }
 
   h3 {
