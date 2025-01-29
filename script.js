@@ -1,16 +1,17 @@
 let currentSlide = 0;
-const slideInterval = 3000; // Change slide every 3 seconds
+const totalSlides = 6; // Total number of slides
+const slidesToShow = 3; // Number of slides to show at a time
 
 function showSlide(index) {
   const slides = document.querySelectorAll('.carousel-item');
-  if (index >= slides.length) {
+  if (index >= totalSlides) {
     currentSlide = 0;
   } else if (index < 0) {
-    currentSlide = slides.length - 1;
+    currentSlide = totalSlides - slidesToShow;
   } else {
     currentSlide = index;
   }
-  const offset = -currentSlide * 100;
+  const offset = -currentSlide * (100 / slidesToShow);
   document.querySelector('.carousel-inner').style.transform = `translateX(${offset}%)`;
 }
 
@@ -25,5 +26,6 @@ function prevSlide() {
 // Initialize the carousel
 showSlide(currentSlide);
 
-// Set interval to automatically move to the next slide
-setInterval(nextSlide, slideInterval);
+// Optional: Set interval to automatically move to the next slide
+// const slideInterval = 3000; // Change slide every 3 seconds
+// setInterval(nextSlide, slideInterval);

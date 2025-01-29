@@ -96,7 +96,7 @@ body {
   }
   
   .carousel-item {
-    min-width: 100%;
+    min-width: 33.33%; /* Show 3 items at a time */
     box-sizing: border-box;
   }
   
