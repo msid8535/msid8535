@@ -16,7 +16,7 @@ const introdata = {
 
 const dataabout = {
     title: "About myself",
-    aboutme: "I am a dedicated Software Engineer pursuing a Bachelor of Engineering (Software) at the University of Sydney, combining academic rigor with practical, startup-style development experience. I thrive on transforming complex requirements into elegant, user-friendly applications, leveraging my proficiency in Java, Python, and SQL alongside modern frameworks like React, TypeScript, Node.js, and Next.js. My passion lies in crafting scalable solutions that enhance usability and performance, all while collaborating closely with cross-disciplinary teams to drive meaningful impact.",
+    aboutme: "I am a dedicated Software Engineer pursuing a Bachelor of Engineering (Software) at the University of Sydney, combining academic rigor with practical, startup development experience. I thrive on transforming complex requirements into elegant, user-friendly applications, leveraging my proficiency in Java, Python, and SQL alongside modern frameworks like React, TypeScript, Node.js, and Next.js. My passion lies in crafting scalable solutions that enhance usability and performance, all while collaborating closely with cross-disciplinary teams to drive meaningful impact.",
 };
 const worktimeline = [{
         jobtitle: "Software Engineering Intern",
