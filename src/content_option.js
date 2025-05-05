@@ -1,61 +1,36 @@
-const logotext = "JOHN";
+const logotext = "MOHSIN MURTAZA SIDDIQUI";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Mohsin Murtaza Siddiqui",
+    description: "I’m Mohsin, a Software Engineering student at the University of Sydney, previously a SWE intern",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Mohsin",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Former SWE intern at the RDA Group.",
+        second: "Currently Web Design Officer at SUAVE.",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "Software Engineering student at the University of Sydney.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About myself",
+    aboutme: "I am a dedicated Software Engineer pursuing a Bachelor of Engineering (Software) at the University of Sydney, combining academic rigor with practical, startup-style development experience. I thrive on transforming complex requirements into elegant, user-friendly applications, leveraging my proficiency in Java, Python, and SQL alongside modern frameworks like React, TypeScript, Node.js, and Next.js. My passion lies in crafting scalable solutions that enhance usability and performance, all while collaborating closely with cross-disciplinary teams to drive meaningful impact.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Software Engineering Intern",
+        where: "RDA Group",
+        date: "January - April 2025",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Web Design Officer",
+        where: "Sydney UAV Engineering",
+        date: "June 2024 - Present",
     },
 ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
+const skills = [
 ];
 
 const services = [{
@@ -136,9 +111,8 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "mohsinsiddiqui1905@gmail.com",
+    description: "If you'd like to contact me regarding opportunities, you have an enquiry, or you'd just like to have a chat, feel free to send me a message, and I'll get back to you as soon as possible.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,10 +121,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/msid8535",
+    linkedin: "https://www.linkedin.com/in/mohsinsiddiqui10/",
+    twitter: "https://twitter.com/semicolon404",
 };
 export {
     meta,
