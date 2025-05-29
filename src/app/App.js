@@ -28,8 +28,8 @@ export default function App() {
           outerSize={15}
           color="255, 255 ,255"
           outerAlpha={0.4}
-          innerScale={0.7}
-          outerScale={5}
+          innerScale={0.8}
+          outerScale={0.8}
         />
       </div>
       <ScrollToTop>

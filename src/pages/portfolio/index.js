@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import { dataportfolio, meta } from "../../content_option";
+import { projectportfolio, meta } from "../../content_option";
 
 export const Portfolio = () => {
   return (
@@ -20,13 +20,15 @@ export const Portfolio = () => {
           </Col>
         </Row>
         <div className="mb-5 po_items_ho">
-          {dataportfolio.map((data, i) => {
+          {projectportfolio.map((data, i) => {
             return (
               <div key={i} className="po_item">
                 <img src={data.img} alt="" />
                 <div className="content">
-                  <p>{data.description}</p>
+                  <p>{data.description}</p> <b> </b>
                   <a href={data.link}>view project</a>
+                  <br />
+                  <p className="languages">Languages: {data.languages}</p>
                 </div>
               </div>
             );

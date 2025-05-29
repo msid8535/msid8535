@@ -6,7 +6,7 @@ import {
   dataabout,
   meta,
   worktimeline,
-  services,
+  interests,
 } from "../../content_option";
 
 export const About = () => {
@@ -19,26 +19,26 @@ export const About = () => {
           <meta name="description" content={meta.description} />
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
-          <Col lg="8">
+          <Col lg="9">
             <h1 className="display-4 mb-4">About me</h1>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lg="5">
+          <Col lg="4">
             <h3 className="color_sec py-4">{dataabout.title}</h3>
           </Col>
-          <Col lg="7" className="d-flex align-items-center">
+          <Col lg="8" className="d-flex align-items-center">
             <div>
               <p>{dataabout.aboutme}</p>
             </div>
           </Col>
         </Row>
         <Row className=" sec_sp">
-          <Col lg="5">
+          <Col lg="4">
             <h3 className="color_sec py-4">Work Timeline</h3>
           </Col>
-          <Col lg="7">
+          <Col lg="8">
             <table className="table caption-top">
               <tbody>
                 {worktimeline.map((data, i) => {
@@ -55,11 +55,11 @@ export const About = () => {
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lang="5">
-            <h3 className="color_sec py-4">services</h3>
+          <Col lang="4">
+            <h3 className="color_sec py-4">Interests</h3>
           </Col>
-          <Col lg="7">
-            {services.map((data, i) => {
+          <Col lg="8">
+            {interests.map((data, i) => {
               return (
                 <div className="service_ py-4" key={i}>
                   <h5 className="service__title">{data.title}</h5>
